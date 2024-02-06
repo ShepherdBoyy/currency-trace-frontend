@@ -1,0 +1,29 @@
+.home-container {
+  min-height: 91.6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: -16px;
+  position: absolute;
+  bottom: 16px;
+  z-index: -1;
+  width: 100vw;
+  background-image: url("../../assets/home/home-background.jpg");
+  background-size: cover;
+}
+
+.home-container h1 {
+  font-size: 95px; /* 110px modified */
+  color: #000;
+  text-shadow: -1px -1px 0 #889777, 5px -1px 0 #889777, -1px 5px 0 #889777,
+    5px 5px 0 #889777;
+}
+
+.home-container p {
+  font-size: 35px; /* 40px modified */
+  font-weight: bold;
+  margin-top: -70px;
+  color: #889777;
+  text-shadow: -1px -1px 0 #000, 3px -1px 0 #000, -1px 1px 0 #000,
+    3px 3px 0 #000;
+}
